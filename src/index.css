@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+}
+.active {
+  font-weight: bold;
+}
+.nav {
+  border: 1px solid #aaa;
+}
+.intro {
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.15);
+  padding-bottom: 14px;
+  margin-left: 24px;
+  margin-bottom: 40px;
+}
